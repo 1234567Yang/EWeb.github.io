@@ -1,0 +1,31 @@
+<style>
+/* clear */
+.clear{
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.6s;
+  border-radius:5px;
+  filter: blur(2px);
+  -webkit-box-shadow: 0px 0px 10px 1px;
+}
+.clear:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px;
+  filter: blur(0px);
+  scale:1.05;
+}
+/* blurrty */
+.blurry{
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.6s;
+  border-radius:5px;
+  filter: blur(0px);
+  -webkit-box-shadow: 0px 0px 5px 1px;
+}
+.blurry:hover {
+  -webkit-box-shadow: 0px 0px 10px 1px;
+  filter: blur(2px);
+  scale:1.05;
+}
+</style>
+
+<p class="clear" style="left:10%;top:30%;width:30%;height:30%;position:absolute">qwertyuiop</p>
+<p class="blurry" style="left:60%;top:30%;width:30%;height:30%;position:absolute">qwertyuiop</p>
